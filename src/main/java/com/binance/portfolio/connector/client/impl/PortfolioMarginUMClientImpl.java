@@ -2,6 +2,7 @@ package com.binance.portfolio.connector.client.impl;
 
 import com.binance.portfolio.connector.client.PortfolioMarginUMClient;
 import com.binance.portfolio.connector.client.enums.DefaultUrls;
+import com.binance.portfolio.connector.client.impl.porfoliomargin.Account;
 import com.binance.portfolio.connector.client.impl.porfoliomargin.Trade;
 import com.binance.portfolio.connector.client.utils.ProxyAuth;
 import com.binance.portfolio.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
@@ -44,5 +45,10 @@ public class PortfolioMarginUMClientImpl implements PortfolioMarginUMClient {
     @Override
     public Trade createTrade() {
         return new Trade(baseUrl, apiKey, signatureGenerator, showLimitUsage, proxy);
+    }
+
+    @Override
+    public Account createAccount() {
+        return new Account(baseUrl, apiKey, signatureGenerator, showLimitUsage, proxy);
     }
 }
