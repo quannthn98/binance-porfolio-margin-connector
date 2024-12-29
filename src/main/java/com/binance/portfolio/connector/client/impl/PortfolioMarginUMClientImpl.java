@@ -2,7 +2,7 @@ package com.binance.portfolio.connector.client.impl;
 
 import com.binance.portfolio.connector.client.PortfolioMarginUMClient;
 import com.binance.portfolio.connector.client.enums.DefaultUrls;
-import com.binance.portfolio.connector.client.impl.spot.Trade;
+import com.binance.portfolio.connector.client.impl.porfoliomargin.Trade;
 import com.binance.portfolio.connector.client.utils.ProxyAuth;
 import com.binance.portfolio.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
 import com.binance.portfolio.connector.client.utils.signaturegenerator.SignatureGenerator;
