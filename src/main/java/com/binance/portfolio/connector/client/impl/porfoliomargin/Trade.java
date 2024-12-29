@@ -52,6 +52,11 @@ public class Trade {
 
     public String cancelUmOrder(Map<String, Object> parameters) {
         ParameterChecker.checkParameter(parameters, "symbol", String.class);
+        return requestHandler.sendSignedRequest(baseUrl, UM_ORDER, parameters, HttpMethod.DELETE, showLimitUsage);
+    }
+
+    public String cancelUmConditionalOrder(Map<String, Object> parameters) {
+        ParameterChecker.checkParameter(parameters, "symbol", String.class);
         return requestHandler.sendSignedRequest(baseUrl, UM_CONDITIONAL_ORDER, parameters, HttpMethod.DELETE, showLimitUsage);
     }
 }
