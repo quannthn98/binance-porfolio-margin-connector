@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.binance</groupId>
-    <artifactId>binance-connector-java</artifactId>
+    <artifactId>binance-portfolio-margin-connector-java</artifactId>
     <version>3.4.0</version>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
