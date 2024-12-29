@@ -23,6 +23,7 @@ public class Trade {
     private final boolean showLimitUsage;
     private final String UM_ORDER = "/papi/v1/um/order";
     private final String UM_CONDITIONAL_ORDER = "/papi/v1/um/conditional/order";
+    private final String UM_ALL_CONDITIONAL_ORDER = "/papi/v1/um/conditional/allOpenOrders";
 
     public Trade(String baseUrl, String apiKey, String secretKey, boolean showLimitUsage, ProxyAuth proxy) {
         this.baseUrl = baseUrl;
@@ -58,5 +59,10 @@ public class Trade {
     public String cancelUmConditionalOrder(Map<String, Object> parameters) {
         ParameterChecker.checkParameter(parameters, "symbol", String.class);
         return requestHandler.sendSignedRequest(baseUrl, UM_CONDITIONAL_ORDER, parameters, HttpMethod.DELETE, showLimitUsage);
+    }
+
+    public String cancelAllUmConditionalOrder(Map<String, Object> parameters) {
+        ParameterChecker.checkParameter(parameters, "symbol", String.class);
+        return requestHandler.sendSignedRequest(baseUrl, UM_ALL_CONDITIONAL_ORDER, parameters, HttpMethod.DELETE, showLimitUsage);
     }
 }
