@@ -2,10 +2,10 @@ package examples.websocketapi.trade;
 
 import org.json.JSONObject;
 
-import com.binance.connector.client.WebSocketApiClient;
-import com.binance.connector.client.enums.DefaultUrls;
-import com.binance.connector.client.impl.WebSocketApiClientImpl;
-import com.binance.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
+import com.binance.portfolio.connector.client.WebSocketApiClient;
+import com.binance.portfolio.connector.client.enums.DefaultUrls;
+import com.binance.portfolio.connector.client.impl.WebSocketApiClientImpl;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
 
 import examples.PrivateConfig;
 

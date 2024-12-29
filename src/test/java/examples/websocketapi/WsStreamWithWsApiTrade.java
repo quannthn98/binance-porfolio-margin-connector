@@ -2,13 +2,13 @@ package examples.websocketapi;
 
 import org.json.JSONObject;
 
-import com.binance.connector.client.WebSocketApiClient;
-import com.binance.connector.client.WebSocketStreamClient;
-import com.binance.connector.client.enums.DefaultUrls;
-import com.binance.connector.client.impl.WebSocketApiClientImpl;
-import com.binance.connector.client.impl.WebSocketStreamClientImpl;
-import com.binance.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
-import com.binance.connector.client.utils.websocketcallback.WebSocketMessageCallback;
+import com.binance.portfolio.connector.client.WebSocketApiClient;
+import com.binance.portfolio.connector.client.WebSocketStreamClient;
+import com.binance.portfolio.connector.client.enums.DefaultUrls;
+import com.binance.portfolio.connector.client.impl.WebSocketApiClientImpl;
+import com.binance.portfolio.connector.client.impl.WebSocketStreamClientImpl;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketMessageCallback;
 
 import examples.PrivateConfig;
 

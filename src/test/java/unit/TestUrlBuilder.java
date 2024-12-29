@@ -9,7 +9,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.binance.connector.client.utils.UrlBuilder;
+import com.binance.portfolio.connector.client.utils.UrlBuilder;
 
 public class TestUrlBuilder {
     private final String baseUrl = "www.test.com";

@@ -3,14 +3,14 @@ package unit;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.binance.connector.client.utils.RequestBuilder;
-import com.binance.connector.client.utils.WebSocketConnection;
-import com.binance.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
-import com.binance.connector.client.utils.websocketcallback.WebSocketClosedCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketClosingCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketFailureCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketMessageCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketOpenCallback;
+import com.binance.portfolio.connector.client.utils.RequestBuilder;
+import com.binance.portfolio.connector.client.utils.WebSocketConnection;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketClosedCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketClosingCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketFailureCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketMessageCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketOpenCallback;
 
 import okhttp3.Request;
 

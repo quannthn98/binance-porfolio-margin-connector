@@ -6,9 +6,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.binance.connector.client.enums.HttpMethod;
-import com.binance.connector.client.exceptions.BinanceConnectorException;
-import com.binance.connector.client.utils.RequestBuilder;
+import com.binance.portfolio.connector.client.enums.HttpMethod;
+import com.binance.portfolio.connector.client.exceptions.BinanceConnectorException;
+import com.binance.portfolio.connector.client.utils.RequestBuilder;
 
 import okhttp3.Request;
 

@@ -10,11 +10,11 @@ import java.util.Map;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.binance.connector.client.SpotClient;
-import com.binance.connector.client.enums.HttpMethod;
-import com.binance.connector.client.exceptions.BinanceConnectorException;
-import com.binance.connector.client.impl.SpotClientImpl;
-import com.binance.connector.client.utils.UrlBuilder;
+import com.binance.portfolio.connector.client.SpotClient;
+import com.binance.portfolio.connector.client.enums.HttpMethod;
+import com.binance.portfolio.connector.client.exceptions.BinanceConnectorException;
+import com.binance.portfolio.connector.client.impl.SpotClientImpl;
+import com.binance.portfolio.connector.client.utils.UrlBuilder;
 
 import okhttp3.mockwebserver.Dispatcher;
 import okhttp3.mockwebserver.MockWebServer;

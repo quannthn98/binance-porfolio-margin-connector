@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.binance.connector.client.utils.signaturegenerator.RsaSignatureGenerator;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.RsaSignatureGenerator;
 
 public class TestRsaSignatureGenerator {
     @Test

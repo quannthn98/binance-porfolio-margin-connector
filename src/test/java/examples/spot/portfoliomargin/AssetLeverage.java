@@ -1,8 +1,8 @@
 package examples.spot.portfoliomargin;
 
 
-import com.binance.connector.client.SpotClient;
-import com.binance.connector.client.impl.SpotClientImpl;
+import com.binance.portfolio.connector.client.SpotClient;
+import com.binance.portfolio.connector.client.impl.SpotClientImpl;
 
 import examples.PrivateConfig;
 

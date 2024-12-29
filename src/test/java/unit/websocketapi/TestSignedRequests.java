@@ -4,11 +4,11 @@ import static org.junit.Assert.assertThrows;
 
 import org.junit.Test;
 
-import com.binance.connector.client.WebSocketApiClient;
-import com.binance.connector.client.exceptions.BinanceConnectorException;
-import com.binance.connector.client.impl.WebSocketApiClientImpl;
-import com.binance.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
-import com.binance.connector.client.utils.signaturegenerator.RsaSignatureGenerator;
+import com.binance.portfolio.connector.client.WebSocketApiClient;
+import com.binance.portfolio.connector.client.exceptions.BinanceConnectorException;
+import com.binance.portfolio.connector.client.impl.WebSocketApiClientImpl;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.HmacSignatureGenerator;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.RsaSignatureGenerator;
 
 import unit.MockData;
 

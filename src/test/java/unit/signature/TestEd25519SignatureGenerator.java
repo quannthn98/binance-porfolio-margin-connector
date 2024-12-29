@@ -7,7 +7,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.binance.connector.client.utils.signaturegenerator.Ed25519SignatureGenerator;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.Ed25519SignatureGenerator;
 
 public class TestEd25519SignatureGenerator {
     

@@ -2,10 +2,10 @@ package examples.websocketstream;
 
 import org.json.JSONObject;
 
-import com.binance.connector.client.WebSocketStreamClient;
-import com.binance.connector.client.enums.DefaultUrls;
-import com.binance.connector.client.impl.SpotClientImpl;
-import com.binance.connector.client.impl.WebSocketStreamClientImpl;
+import com.binance.portfolio.connector.client.WebSocketStreamClient;
+import com.binance.portfolio.connector.client.enums.DefaultUrls;
+import com.binance.portfolio.connector.client.impl.SpotClientImpl;
+import com.binance.portfolio.connector.client.impl.WebSocketStreamClientImpl;
 
 import examples.PrivateConfig;
 

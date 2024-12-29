@@ -2,8 +2,8 @@ package examples.websocketstream;
 
 import java.util.ArrayList;
 
-import com.binance.connector.client.WebSocketStreamClient;
-import com.binance.connector.client.impl.WebSocketStreamClientImpl;
+import com.binance.portfolio.connector.client.WebSocketStreamClient;
+import com.binance.portfolio.connector.client.impl.WebSocketStreamClientImpl;
 
 public final class CombineStreams {
     private CombineStreams() {

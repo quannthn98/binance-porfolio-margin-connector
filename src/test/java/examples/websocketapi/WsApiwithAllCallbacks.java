@@ -2,13 +2,13 @@ package examples.websocketapi;
 
 import org.json.JSONObject;
 
-import com.binance.connector.client.WebSocketApiClient;
-import com.binance.connector.client.impl.WebSocketApiClientImpl;
-import com.binance.connector.client.utils.websocketcallback.WebSocketClosedCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketClosingCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketFailureCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketMessageCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketOpenCallback;
+import com.binance.portfolio.connector.client.WebSocketApiClient;
+import com.binance.portfolio.connector.client.impl.WebSocketApiClientImpl;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketClosedCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketClosingCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketFailureCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketMessageCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketOpenCallback;
 
 
 public final class WsApiwithAllCallbacks {

@@ -1,12 +1,12 @@
 package examples.websocketstream;
 
-import com.binance.connector.client.WebSocketStreamClient;
-import com.binance.connector.client.impl.WebSocketStreamClientImpl;
-import com.binance.connector.client.utils.websocketcallback.WebSocketClosedCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketClosingCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketFailureCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketMessageCallback;
-import com.binance.connector.client.utils.websocketcallback.WebSocketOpenCallback;
+import com.binance.portfolio.connector.client.WebSocketStreamClient;
+import com.binance.portfolio.connector.client.impl.WebSocketStreamClientImpl;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketClosedCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketClosingCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketFailureCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketMessageCallback;
+import com.binance.portfolio.connector.client.utils.websocketcallback.WebSocketOpenCallback;
 
 public final class TradeStreamWithAllCallbacks {
     private TradeStreamWithAllCallbacks() {

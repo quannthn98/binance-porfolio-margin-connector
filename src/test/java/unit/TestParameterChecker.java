@@ -5,8 +5,8 @@ import static org.junit.Assert.assertThrows;
 import org.json.JSONObject;
 import org.junit.Test;
 
-import com.binance.connector.client.exceptions.BinanceConnectorException;
-import com.binance.connector.client.utils.ParameterChecker;
+import com.binance.portfolio.connector.client.exceptions.BinanceConnectorException;
+import com.binance.portfolio.connector.client.utils.ParameterChecker;
 
 public class TestParameterChecker {
 

@@ -6,7 +6,7 @@ import static org.junit.Assert.assertThrows;
 import org.json.JSONException;
 import org.junit.Test;
 
-import com.binance.connector.client.utils.JSONParser;
+import com.binance.portfolio.connector.client.utils.JSONParser;
 
 public class TestJSONParser {
     private final String mockJson = "{\"key1\":\"value1\", \"key2\":2}";

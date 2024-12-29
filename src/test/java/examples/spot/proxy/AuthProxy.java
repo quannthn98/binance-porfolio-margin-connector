@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 
-import com.binance.connector.client.SpotClient;
-import com.binance.connector.client.impl.SpotClientImpl;
-import com.binance.connector.client.utils.ProxyAuth;
+import com.binance.portfolio.connector.client.SpotClient;
+import com.binance.portfolio.connector.client.impl.SpotClientImpl;
+import com.binance.portfolio.connector.client.utils.ProxyAuth;
 
 import okhttp3.Authenticator;
 import okhttp3.Credentials;

@@ -1,7 +1,7 @@
 package examples.websocketstream;
 
-import com.binance.connector.client.WebSocketStreamClient;
-import com.binance.connector.client.impl.WebSocketStreamClientImpl;
+import com.binance.portfolio.connector.client.WebSocketStreamClient;
+import com.binance.portfolio.connector.client.impl.WebSocketStreamClientImpl;
 
 public final class BookTicker {
     private BookTicker() {

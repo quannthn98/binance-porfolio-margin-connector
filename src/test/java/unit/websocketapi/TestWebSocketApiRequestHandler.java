@@ -6,8 +6,8 @@ import org.json.JSONObject;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.binance.connector.client.exceptions.BinanceConnectorException;
-import com.binance.connector.client.utils.websocketapi.WebSocketApiRequestHandler;
+import com.binance.portfolio.connector.client.exceptions.BinanceConnectorException;
+import com.binance.portfolio.connector.client.utils.websocketapi.WebSocketApiRequestHandler;
 
 import unit.MockData;
 

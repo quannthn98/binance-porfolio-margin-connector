@@ -3,8 +3,8 @@ package examples.spot.staking;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.binance.connector.client.SpotClient;
-import com.binance.connector.client.impl.SpotClientImpl;
+import com.binance.portfolio.connector.client.SpotClient;
+import com.binance.portfolio.connector.client.impl.SpotClientImpl;
 
 import examples.PrivateConfig;
 

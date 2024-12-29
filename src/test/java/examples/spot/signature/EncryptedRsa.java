@@ -3,11 +3,11 @@ package examples.spot.signature;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.binance.connector.client.SpotClient;
-import com.binance.connector.client.exceptions.BinanceClientException;
-import com.binance.connector.client.exceptions.BinanceConnectorException;
-import com.binance.connector.client.impl.SpotClientImpl;
-import com.binance.connector.client.utils.signaturegenerator.RsaSignatureGenerator;
+import com.binance.portfolio.connector.client.SpotClient;
+import com.binance.portfolio.connector.client.exceptions.BinanceClientException;
+import com.binance.portfolio.connector.client.exceptions.BinanceConnectorException;
+import com.binance.portfolio.connector.client.impl.SpotClientImpl;
+import com.binance.portfolio.connector.client.utils.signaturegenerator.RsaSignatureGenerator;
 
 import examples.PrivateConfig;
 
